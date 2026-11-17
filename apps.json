@@ -1,0 +1,156 @@
+{
+  "schema": 1,
+  "revision": 2,
+  "apps": [
+    {
+      "id": "pastepaw",
+      "name": "PastePaw",
+      "bundleId": "me.xueshi.pastepaw",
+      "tagline": {
+        "en": "Multi-themed clipboard history manager with AI actions",
+        "zh-Hans": "多主题的 AI 剪贴板历史管理器"
+      },
+      "homepage": "https://pastepaw.com/",
+      "minOS": "14.0",
+      "github": "https://github.com/XueshiQiao/PastePaw",
+      "install": {
+        "kind": "appStore",
+        "url": "https://apps.apple.com/app/id6759132043"
+      }
+    },
+    {
+      "id": "anydrag",
+      "name": "AnyDrag",
+      "bundleId": "me.xueshi.anydrag",
+      "tagline": {
+        "en": "Hold a modifier key and drag anywhere to move any window",
+        "zh-Hans": "按住修饰键，拖窗口的任意位置就能移动它"
+      },
+      "homepage": "https://xueshi.dev/anydrag/",
+      "minOS": "13.0",
+      "github": "https://github.com/XueshiQiao/AnyDrag",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/AnyDrag/releases/latest/download/AnyDrag.dmg"
+      }
+    },
+    {
+      "id": "qduo",
+      "name": "QDuo",
+      "bundleId": "me.xueshi.qduo",
+      "tagline": {
+        "en": "Select text anywhere to translate, polish or ask AI right at the cursor",
+        "zh-Hans": "选中文字，翻译、润色、问大模型的动作就出现在光标旁"
+      },
+      "homepage": "https://xueshi.dev/qduo/",
+      "minOS": "13.0",
+      "github": "https://github.com/XueshiQiao/qduo",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/qduo/releases/latest/download/QDuo.dmg"
+      }
+    },
+    {
+      "id": "hypercapslock",
+      "name": "HyperCapslock",
+      "bundleId": "me.xueshi.hypercapslock",
+      "tagline": {
+        "en": "Turn Caps Lock into a Vim-style navigation layer",
+        "zh-Hans": "把 Caps Lock 变成 Vim 风格的导航层"
+      },
+      "homepage": "https://xueshi.dev/projects/hypercapslock/",
+      "minOS": "14.0",
+      "github": "https://github.com/XueshiQiao/HyperCapslock",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/HyperCapslock/releases/latest/download/HyperCapslock.dmg"
+      }
+    },
+    {
+      "id": "ccswitcher",
+      "name": "CCSwitcher",
+      "bundleId": "me.xueshi.ccswitcher",
+      "tagline": {
+        "en": "Manage multiple Claude Code accounts and watch usage live",
+        "zh-Hans": "管理多个 Claude Code 账户，实时查看用量"
+      },
+      "homepage": "https://xueshi.dev/projects/ccswitcher/",
+      "minOS": "14.0",
+      "github": "https://github.com/XueshiQiao/CCSwitcher",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/CCSwitcher/releases/latest/download/CCSwitcher.dmg"
+      }
+    },
+    {
+      "id": "netstat-cat",
+      "name": "Netstat Cat",
+      "bundleId": "me.xueshi.netstat-cat",
+      "tagline": {
+        "en": "Lightweight network monitor with natural filter expressions",
+        "zh-Hans": "轻量的网络连接监控，用自然表达式过滤"
+      },
+      "homepage": "https://xueshi.dev/projects/netstat-cat/",
+      "minOS": "10.13",
+      "github": "https://github.com/XueshiQiao/netstat-cat",
+      "install": {
+        "kind": "dmg",
+        "urls": {
+          "arm64": "https://github.com/XueshiQiao/netstat-cat/releases/latest/download/NetstatCat_macos_aarch64.dmg",
+          "x86_64": "https://github.com/XueshiQiao/netstat-cat/releases/latest/download/NetstatCat_macos_x64.dmg"
+        }
+      }
+    },
+    {
+      "id": "xtools",
+      "name": "XTools",
+      "bundleId": "me.xueshi.xtools",
+      "tagline": {
+        "en": "Menu bar toolbox that cleans up leftover background processes",
+        "zh-Hans": "菜单栏小工具箱，清理应用退出后残留的后台进程"
+      },
+      "homepage": "https://github.com/XueshiQiao/XTools",
+      "minOS": "13.0",
+      "github": "https://github.com/XueshiQiao/XTools",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/XTools/releases/latest/download/XTools.dmg"
+      }
+    },
+    {
+      "id": "attache",
+      "name": "Attaché",
+      "bundleId": "me.xueshi.attache",
+      "tagline": {
+        "en": "A native macOS interface for tmux sessions, windows and panes",
+        "zh-Hans": "把 tmux 的会话、窗口、面板变成原生界面"
+      },
+      "homepage": "https://github.com/XueshiQiao/Attache",
+      "minOS": "14.0",
+      "github": "https://github.com/XueshiQiao/Attache",
+      "install": {
+        "kind": "dmg",
+        "url": "https://github.com/XueshiQiao/Attache/releases/latest/download/Attache.dmg"
+      }
+    },
+    {
+      "id": "wepaste",
+      "name": "WePaste",
+      "bundleId": "me.xueshi.wepaste",
+      "tagline": {
+        "en": "Sync your phone's WeChat keyboard with your computer's clipboard",
+        "zh-Hans": "手机微信输入法和电脑剪贴板双向同步"
+      },
+      "homepage": "https://github.com/XueshiQiao/WePaste",
+      "minOS": "13.0",
+      "github": "https://github.com/XueshiQiao/WePaste",
+      "install": {
+        "kind": "dmg",
+        "urls": {
+          "arm64": "https://github.com/XueshiQiao/WePaste/releases/latest/download/WePaste_macos_aarch64.dmg",
+          "x86_64": "https://github.com/XueshiQiao/WePaste/releases/latest/download/WePaste_macos_x64.dmg"
+        }
+      }
+    }
+  ]
+}
