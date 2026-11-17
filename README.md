@@ -14,7 +14,7 @@ from every network:
 | Where | Address the apps read |
 |---|---|
 | GitHub | `https://raw.githubusercontent.com/XueshiQiao/apps/main/apps.json` |
-| Gitee | `https://gitee.com/XueshiQiao/apps/raw/main/apps.json` |
+| Gitee | `https://gitee.com/qiaoxueshi/apps/raw/main/apps.json` |
 
 An app asks both and uses the answer with the highest `revision`.
 
