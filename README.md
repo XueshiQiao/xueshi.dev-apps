@@ -26,11 +26,11 @@ them. Do not rename the repository, the branch (`main`) or the file.
 1. Edit `apps.json`. The order of `apps` is the order on the page.
 2. **Increase `revision`.** An app ignores a list whose revision is not higher
    than the one it already has.
-3. Commit, then push to both places:
+3. Commit, then push. Both places must always get the same commit: an app
+   that can reach only one of them would otherwise keep an old list.
 
    ```bash
-   git push origin main    # GitHub
-   git push gitee main     # Gitee
+   git push            # sends to GitHub and Gitee in one go (see below)
    ```
 
 4. Check that both addresses in the table above return the new file.
@@ -44,3 +44,15 @@ from this repository when a new version of the package is released.
 
 An incompatible change of the format must go into a file with a new name, so
 apps already in use keep reading `apps.json` as it is.
+
+## Setting up a fresh clone
+
+`git push` reaches both places only when `origin` has two push addresses. That
+is a setting of the local clone, so a new clone needs it once:
+
+```bash
+git remote add gitee <the Gitee address of this repository>
+git remote set-url --add --push origin "$(git remote get-url origin)"
+git remote set-url --add --push origin "$(git remote get-url gitee)"
+git remote -v      # origin must now list two (push) lines
+```
