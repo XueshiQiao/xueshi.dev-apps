@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "revision": 2,
+  "revision": 3,
   "apps": [
     {
       "id": "pastepaw",
@@ -12,7 +12,6 @@
       },
       "homepage": "https://pastepaw.com/",
       "minOS": "14.0",
-      "github": "https://github.com/XueshiQiao/PastePaw",
       "install": {
         "kind": "appStore",
         "url": "https://apps.apple.com/app/id6759132043"
