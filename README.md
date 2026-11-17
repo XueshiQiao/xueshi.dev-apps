@@ -55,3 +55,7 @@ apps already in use keep reading `apps.json` as it is.
 Gitee was tried as a second host on 2026-11-17 and does not work. It treats an
 app reading a raw file as link abuse ("外链滥用"), makes the repository private
 and refuses to make it public again.
+
+## License
+
+GPL-3.0, the same license as the apps. See [LICENSE](LICENSE).
